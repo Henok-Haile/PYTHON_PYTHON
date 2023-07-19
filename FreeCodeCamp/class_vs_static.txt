@@ -1,0 +1,36 @@
+# When to use class methods and when to use static methods?
+
+class Item:
+    @staticmethod
+    def is_integer(num):
+        '''
+        This should do something that has a relationship
+        with the class, but not something that must be unique
+        per instanmce!
+        '''
+
+    @classmethod
+    def instantiate_from_somthing(clc):
+        '''
+        This should also do something that has a relationship
+        with the class, but usually, those are used to 
+        manipulate different structures of data to instantiate 
+        objects, like we have done with csv.
+        '''
+
+# However, those could be also called from instanmces.
+
+item1 = Item()
+item1.is_integer()
+item1.instantiate_from_somthing()
+
+
+# for instance in Item.all: 
+#     print(instance.name)
+
+# print(item1.calculate_total_price())
+# print(item2.calculate_total_price())
+
+# print(Item.__dict__) # All the attributies for class level
+# print(item1.__dict__) # All the attributies for an instance level item1
+# print(item2.__dict__) # All the attributies for an instance level item2
