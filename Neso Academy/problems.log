@@ -1,0 +1,6 @@
+INFO:root:Time required for C://Users/HENOK/Desktop/PYTHON_PYTHON/Neso Academy/test_file.txt = 0.0010004043579101562
+INFO:root:Time required for C://Users/HENOK/Desktop/PYTHON_PYTHON/Neso Academy/test_file.txt = 0.0
+ERROR:root:[Errno 2] No such file or directory: 'C://Users/HENOK/Desktop/PYTHON_PYTHON/Neso Academy/henopk.txt'
+INFO:root:Time required for C://Users/HENOK/Desktop/PYTHON_PYTHON/Neso Academy/henopk.txt = 0.0
+ERROR:root:[Errno 2] No such file or directory: 'C://Users/HENOK/Desktop/PYTHON_PYTHON/Neso Academy/henopk.txt'
+INFO:root:Time required for C://Users/HENOK/Desktop/PYTHON_PYTHON/Neso Academy/henopk.txt = 0.0
