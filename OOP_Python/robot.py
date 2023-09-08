@@ -39,3 +39,5 @@ for rob in [x, y]:
 	if rob.get_name() == "Caliban":
 		rob.set_build_year(1993)
 	print("I was biult in the year " + str(rob.get_build_year()) + "!")
+x._Robot__build_year = 1993
+print(x.get_build_year())
